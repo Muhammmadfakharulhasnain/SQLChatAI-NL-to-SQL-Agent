@@ -1,0 +1,48 @@
+/* App.css - basic styling for SQL Chat UI */
+:root{
+  --bg: #0f1724;
+  --card: #0b1220;
+  --muted: #9aa4b2;
+  --accent: #7c3aed;
+  --accent-2: #06b6d4;
+  --text: #e6eef6;
+}
+
+*{box-sizing:border-box}
+body, #root{height:100%; margin:0; font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+
+.app-container{
+  padding:24px;
+  max-width:960px;
+  margin:24px auto;
+  color:var(--text);
+}
+
+.app-header{font-size:20px; margin-bottom:12px; color: black;}
+
+.config{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:18px; border-radius:10px; box-shadow:0 4px 18px rgba(2,6,23,0.6); color: black;}
+
+.form-row{display:flex; gap:12px; margin-bottom:10px ; color: black;}
+.form-row .input{flex:1; color: black;}
+
+.input, .select{width:100%; padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:var(--text); color: black;}
+.select{appearance:none}
+
+.label{font-size:14px; color:var(--muted); margin-bottom:6px; color: black;}
+
+.btn{background:linear-gradient(90deg,var(--accent),var(--accent-2)); color:white; border:none; padding:10px 14px; border-radius:8px; cursor:pointer}
+.btn:active{transform:translateY(1px)}
+
+.chat{margin-top:18px}
+.chat-input{display:flex; gap:8px}
+.chat-input .input{flex:1}
+
+.chat-list{margin-top:18px}
+.chat-message{background:rgba(255,255,255,0.02); padding:12px; border-radius:8px; margin-bottom:12px}
+.chat-message strong{display:inline-block; width:30px}
+
+.muted{color:var(--muted)}
+
+@media (max-width:600px){
+  .form-row{flex-direction:column}
+}

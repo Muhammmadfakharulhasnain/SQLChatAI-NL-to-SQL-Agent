@@ -1,0 +1,21 @@
+id,name,department_id,salary
+1,John Doe,1,60000
+2,Jane Smith,2,75000
+3,Alice Johnson,1,55000
+4,Bob Brown,3,80000
+5,Charlie Davis,2,70000
+6,Emily Wilson,3,72000
+7,Michael Chen,1,58000
+8,Sarah Williams,2,68000
+9,David Miller,4,65000
+10,Lisa Garcia,3,78000
+11,James Taylor,1,62000
+12,Amanda Lee,4,59000
+13,Robert Clark,2,71000
+14,Jennifer Hall,3,83000
+15,Kevin White,1,57000
+16,Michelle Harris,4,67000
+17,Thomas Martin,2,69000
+18,Nicole Young,3,76000
+19,Daniel King,1,61000
+20,Stephanie Scott,4,64000

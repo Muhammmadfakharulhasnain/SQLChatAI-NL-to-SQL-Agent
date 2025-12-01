@@ -1,0 +1,17 @@
+# core
+#langchain>=0.2.0
+#langchain-community
+openai
+langchain-openai
+langchain-groq             # for Groq
+sqlalchemy
+pandas
+python-dotenv
+uvicorn
+fastapi
+pymysql                    # if you want MySQL support
+
+langchain==0.2.11
+langchain-community==0.2.11
+langchain-core==0.2.11
+langchain-text-splitters==0.2.2
